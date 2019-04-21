@@ -19,7 +19,7 @@ $output = "<script>
     </thead>
     <tbody>";
 foreach ($selectedSw as $singleSw) {
-    $finalDate = date('d M Y - h:i',strtotime($singleSw['date']));
+    $finalDate = date('d M Y - h:i a',strtotime($singleSw['date']));
     $output .= "<tr>
 <td>{$finalDate}</td>
 <td>{$singleSw['timer']}</td>

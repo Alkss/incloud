@@ -1,6 +1,6 @@
 # incloud
 In order for this project to work you will need a PHP 7+ version, MySQL 5.7.19 or higher!
-The database configuration can be find at the /class/Database.php file. 
+The database configuration can be found at the /class/Database.php file. 
 ------ 
 (The sql file included in this project, which contains an already populated database, is assuming that your database model is named 'incloud', and both the user access and password are 'root')
 ------
